@@ -193,7 +193,7 @@ function projectsXpGainChart(page){
 
     const desc = document.createElement("desc")
     desc.id = "desc"
-    desc.innerHTML = "Graphique du gain d'xp par projet."
+    desc.textContent = "Graphique du gain d'xp par projet."
 
     graph.appendChild(title)
     graph.appendChild(desc)
