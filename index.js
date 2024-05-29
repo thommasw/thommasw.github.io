@@ -108,11 +108,13 @@ async function createProfilPageUser(){
         const loginPage = document.getElementById("loginpage");
 
         const sep = Array.from(document.getElementsByClassName("separrator"))
+        const deco = document.getElementById("deco")
 
         sep.forEach(s =>{
             s.style.display = 'block'
         })
         loginPage.style.display = 'none'
+        deco.style.display = 'block'
         
 
         displayUserInfos(profil)
