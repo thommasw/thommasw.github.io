@@ -110,11 +110,11 @@ async function createProfilPageUser(){
         const sep = Array.from(document.getElementsByClassName("separrator"))
         const deco = document.getElementById("deco")
 
+        deco.style.display = 'block'
         sep.forEach(s =>{
             s.style.display = 'block'
         })
         loginPage.style.display = 'none'
-        deco.style.display = 'block'
         
 
         displayUserInfos(profil)
